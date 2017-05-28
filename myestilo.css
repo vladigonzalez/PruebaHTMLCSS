@@ -1,0 +1,65 @@
+.jumboheader{
+	height: 185px;
+    margin-top: 10px;
+    margin-bottom: 0px
+}
+.seccion_iconos{
+	color: gray;
+	text-align: center ;
+	font-size: 800% ;
+}
+.jumbofooter {
+	height: 500px;
+	padding-bottom: 0;
+}
+.panelcontacto {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.fa {
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+.menufa {
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+    margin-left: 10px ;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.menufa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/* youtube */
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
