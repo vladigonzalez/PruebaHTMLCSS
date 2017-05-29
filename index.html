@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Fundación Asperger Chile</title>
+	
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -17,16 +18,35 @@
 	<!-- mi estilo ccs myestilo.css-->
 	<link rel="stylesheet" href="myestilo.css">
 
-	<!-- iconos social media 3wschools.com-->
+	<!-- iconos social media 3wschools.com -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+	<!-- Slideshow 3wschools.com
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	-->
 	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-	<style type="text/css">
-		
-	</style>
+	<!-- Slider w3schools.com
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < x.length; i++) {
+		       x[i].style.display = "none";  
+		    }
+		    myIndex++;
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";  
+		    setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+	</script>
+	-->
+
 </head>
 <body style="padding-top: 5px ;">
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -50,7 +70,7 @@
 	        <li><a href="contacto.html"> Contacto </a></li>
 	      </ul>
 
-	      <!-- Inicio Menu derecho iconos redes sociales 
+	      <!-- Inicio Menu derecho iconos redes sociales
    	      <ul class="nav navbar-nav navbar-right" style="margin-right: 50px ; margin-top: 10px;">
 	        <li>
   				<a href="https://www.facebook.com/fundacion-asperger-chile/?fref=ts" target="_blank" class="menufa fa-facebook"></a>
@@ -66,14 +86,74 @@
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+	<!-- Inicio Slide
+	<div class="w3-content w3-section" style="max-width:950px">
+	  <img class="mySlides" src="./images/bnr1.jpg" style="max-width:100%">
+	  <img class="mySlides" src="./images/bnr2.jpg" style="max-width:100%">
+	  <img class="mySlides" src="./images/bnr3.jpg" style="max-width:100%">
+	  <img class="mySlides" src="./images/bnr4.jpg" style="max-width:100%">
+	</div>
+	--> <!--Fin Slide-->
+
 	<div class="container jumbotron jumboheader">
-		<img src="./images/logoasperger.png" alt="Fundación Asperger Chile">
+		<img class="img-responsive img_jheader" src="./images/banner2.jpg" alt="Fundación Asperger Chile">
+	</div>
+	<div class="container jumbotron jumboheader">
+		<img class="img-responsive img_jheader" src="./images/comodonar.jpg" alt="Fundación Asperger Chile">
 	</div>
 	
+	<!-- Inicio thumbnail Noticias 
+	cambio colores a botones para quese colorido de acorde a la pagina
+	-->
 	<div class="container">
-		<h2>Index</h1>
-		<h3>en el capitulo de hoy vamos a ver Getbootstrap</h2>
+		<div class="row">
+		  <div class="col-sm-6 col-md-6">
+		    <div class="thumbnail">
+		      <img src="./images/noti1.jpg" alt="noticias 1">
+		      <div class="caption">
+		        <h3>Inicio de talleres de Teatro, Manos Creando, Habilidades Sociales y Grupo de Apoyo para Padres 2016</h3>
+		        <p>Luego de dos exitosos años en el trabajo en nuestros talleres”Teatro” y “Manos Creando”, teniendo ambos por objetivo el entregar herramientas para el desarrollo de  habilidades sociales en niños y adolescentes con condiciones del espectro autista a través del arte, estamos ...</p>
+		        <p>
+		        	<a href="#" class="btn btn-primary" role="button">leer más</a>
+				</p>
+		      </div>
+  	      	</div>
+  	      </div>
+		  <div class="col-sm-6 col-md-6">
+		    <div class="thumbnail">
+		      <img src="./images/noti2.jpg" alt="noticias 2">
+		      <div class="caption">
+		        <h3>Ética  en  los  tiempos  del  Autismo <br> 
+		        (Día  Internacional  del Síndrome  de  Asperger)<br><br></h3>
+		        <p>En cinco años, hemos hecho un progreso lento, pero constante en el conocimiento sobre las condiciones del espectro autista. La palabra Asperger que hasta hace poco era totalmente desconocida, despertando el temor de padres y profesionales de la Educación...</p>
+		        <p><a href="#" class="btn btn-success" role="button">leer más</a> </p>
+		      </div>
+  	      	</div>
+ 	      </div>
+		  <div class="col-sm-6 col-md-6">
+		    <div class="thumbnail">
+		      <img src="./images/noti3.jpg" alt="noticias 3">
+		      <div class="caption">
+		        <h3>Carta a mi Jorgito</h3>
+		        <p>Querido Jorgito:<br>
+				Desde el momento que te tomé por primera vez en mis brazos supe que ibas a ser un niño muy especial, querido, esperado y por sobre todo,  mi niño. Con el paso del tiempo fuiste creciendo, y como todo niño te fuiste enfrentando a los desafíos que te colocaba la vida casi sin darte cuenta...</p>
+		        <p><a href="#" class="btn btn-danger" role="button">Leer más</a></p>
+		      </div>
+  	      	</div>
+ 	      </div>
+		  <div class="col-sm-6 col-md-6">
+		    <div class="thumbnail">
+		      <img src="./images/noti4.jpg" alt="noticias 4">
+		      <div class="caption">
+		        <h3>Capacitación de Voluntarias Taller 2015</h3>
+		        <p>En las dependencias de la Universidad San Sebastián, Sede Bellavista se está realizando el proyecto de voluntariado con las Alumnas de la Carrera de Educación Diferencial. En este proceso, aparte de colaborar en los Talleres de Teatro y Manos Creando, las alumnas recibirán permanente capacitación que le permitirá conocer... </p>
+		        <p><a href="#" class="btn btn-warning" role="button">leer más</a></p>
+		      </div>
+  	      	</div>
+ 	      </div>
+		</div>
 	</div>
+	<!-- Fin thumbnail Noticias -->
 
 	<!-- Div de iconos -->
 	<div class="container">
@@ -156,7 +236,7 @@
 						<a href="mailto:contacto@aspergerchile.cl">contacto@aspergerchile.cl</a><br><br>
 						</p>
   					</div>
-  					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.7810960435622!2d-70.60600634946208!3d-33.42895100370045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf718b243cab%3A0xf8d26c9b4931771c!2sEzequ%C3%ADas+Alliende+2361%2C+Providencia%2C+Regi%C3%B3n+Metropolitana%2C+Chile!5e0!3m2!1ses!2s!4v1495923332959" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+  					<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.7810960435622!2d-70.60600634946208!3d-33.42895100370045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf718b243cab%3A0xf8d26c9b4931771c!2sEzequ%C3%ADas+Alliende+2361%2C+Providencia%2C+Regi%C3%B3n+Metropolitana%2C+Chile!5e0!3m2!1ses!2s!4v1495923332959" width="100%" height="300" frameborder="0" allowfullscreen></iframe>
 				</div><!--Fin contacto-->
 				
 				<!-- fila fomulario contacto
@@ -197,11 +277,12 @@
   						<a href="https://www.facebook.com/fundacion-asperger-chile/?fref=ts" target="_blank" class="fa fa-facebook"></a>
 						<a href="http://twitter.com/Aspergerchile_F" target="_blank" class="fa fa-twitter"></a>
 						<a href="http://www.youtube.com/channel/UCv927I1W_spt4eVdrYUSlqw" target="_blank" class="fa fa-youtube"></a>
-  					</div>
+						<a href="http://www.instagram.com/aspergerchile_F" target="_blank" class="fa fa-instagram"></a>
+					</div>
 				</div><!--Fin Redes Sociales-->
 
 				<!-- Footer -->
-				<div class="col-md-12" style="background-color: gray ; width: 100%; height: 50px; padding-bottom: 0px ; padding-top: 10px; text-align: center; color: white ;">
+				<div class="col-md-12 footer">
 					<p>Fundación Asperger Chile 2017</p>
 				</div><!--Footer-->
 
