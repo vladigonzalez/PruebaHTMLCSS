@@ -49,6 +49,14 @@ body {
 	padding-right: 0px;
 }
 
+.btn-social-media {
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;	
+}
 .fa {
     padding: 7px;
     width: 30px;
@@ -98,4 +106,16 @@ body {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+.panel-heading.barra-n1{
+	background-color: #6d94bf;
+}
+.panel-heading.barra-n2{
+	background-color: #61dd45;;
+}
+.panel-heading.barra-n3{
+	background-color: #ff2205;
+}
+.panel-heading.barra-n4{
+	background-color: #ff9c21;
 }
